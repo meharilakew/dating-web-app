@@ -2,25 +2,15 @@ import React from 'react';
 
 const CustomBackgroundComponent = () => {
   return (
-    <div className="relative">
-      {/* Ellipse 1 */}
-      <div className="absolute w-470 h-470 bg-pink-500 -left-72 top-1092"></div>
-      {/* Ellipse 2 */}
-      <div className="absolute w-470 h-470 bg-purple-700 left-51 top-728"></div>
-      {/* Ellipse 7 */}
-      <div className="absolute w-656 h-561 bg-pink-600 left-850 top-1073"></div>
-      {/* Ellipse 8 */}
-      <div className="absolute w-470 h-470 bg-pink-200 left-755 top-660"></div>
-      {/* Ellipse 4 */}
-      <div className="absolute w-606 h-606 bg-orange-300 left-430 top-1073"></div>
-      {/* Ellipse 5 */}
-      <div className="absolute w-606 h-606 bg-pink-800 left-941 top-493"></div>
-      {/* Ellipse 6 */}
-      <div className="absolute w-606 h-606 bg-indigo-900 left-335 top-436"></div>
-      {/* Ellipse 3 */}
-      <div className="absolute w-470 h-470 bg-indigo-800 -left-184 top-349"></div>
-      {/* Rectangle 1 */}
-      <div className="absolute w-full h-1024 bg-pink-300 bg-opacity-30 bottom-0"></div>
+    <div className="relative flex flex-row h-screen overflow-hidden bg-pink-100">
+      <div className=" bg-[#413088] w-96 h-96  absolute left-0 top-0 rounded-full -translate-x-28 -translate-y-40 blur-[100px] scale-150   "></div>
+      <div className=" bg-[#06002B] w-96 h-96  rounded-full absolute inset-x-24 top-0 translate-x-96 -translate-y-20 blur-[96px] scale-150  "></div>
+      <div className=" bg-[#974E83] w-96 h-96  rounded-full absolute inset-y-0 top-0 translate-x-8 translate-y-40 blur-3xl scale-150  "></div>
+      <div className=" bg-[#D88485] w-96 h-96  rounded-full absolute bottom-0 left-0 -translate-x-36 translate-y-52 blur-3xl scale-150   "></div>
+      <div className=" bg-[#EAC5CA] w-96 h-96  rounded-full absolute inset-y-0 right-0 -translate-x-8 translate-y-40 blur-3xl scale-150  "></div>
+      <div className=" bg-[#974E83] w-96 h-96  rounded-full absolute right-0 top-0 translate-x-20 -translate-y-36 blur-3xl scale-150   "></div>
+      <div className=" bg-[#C45A8A] w-96 h-96  rounded-full absolute right-0 bottom-0 translate-x-24 translate-y-40 blur-3xl scale-150   "></div>
+      <div className=" bg-[#FCC4B1] w-96 h-96  rounded-full absolute inset-x-32 bottom-0 translate-x-96 translate-y-40 blur-3xl scale-150  "></div>
     </div>
   );
 };
