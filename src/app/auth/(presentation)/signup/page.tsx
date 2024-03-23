@@ -14,7 +14,7 @@ const SignupPage = () => {
 
                     </div>
                 </div>
-                <h2 className="text-white text-3xl font-medium mb-8 text-center">Welcome!</h2>
+                <h2 className="text-white text-3xl font-medium mb-8 text-center">Sign Up!</h2>
                 <div className="mb-4">
                     <div className="relative">
                         <span className="absolute left-4 top-1/2 transnpm install @heroicons/react@v2form -translate-y-1/2">
