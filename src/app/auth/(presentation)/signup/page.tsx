@@ -1,10 +1,15 @@
 import React from 'react';
 import {UserIcon,LockClosedIcon,InformationCircleIcon} from "@heroicons/react/24/solid"
 import {Email} from '../components/icons'
+import Bg from '../components/bg'
 const SignupPage = () => {
     return (
+        <div>
+            
+        <Bg />
         
-        <div className="relative"  style={{ background: 'linear-gradient(to bottom right, #a834eb, #fc03db, #606091,#a834eb, #9d03fc, #9d03fc)'}}>
+        {/* // style={{ background: 'linear-gradient(to bottom right, #a834eb, #fc03db, #606091,#a834eb, #9d03fc, #9d03fc)'}} */}
+        <div className="relative" >
         <div className="flex justify-center items-center min-h-screen bg-gradient-to-b from-blue-gray-700 to-white">
             <div className="relative w-96 h-auto bg-gray-50 bg-opacity-30 border border-pink-300 rounded-xl p-8">
                 <div className="flex justify-center items-center mb-8">
@@ -21,10 +26,10 @@ const SignupPage = () => {
                             <Email/>
                         </span>
                         <input
-  type="email"
-  placeholder="Email ID"
-  className="w-full h-12 pl-12 text-white placeholder-white font-normal text-lg border border-white rounded bg-transparent outline-none"
-/>
+                                        type="email"
+                                        placeholder="Email ID"
+                                        className="w-full h-12 pl-12 text-white placeholder-white font-normal text-lg border border-white rounded bg-transparent outline-none"
+                                        />
 
                     </div>
                 </div>
@@ -34,10 +39,10 @@ const SignupPage = () => {
                             <LockClosedIcon className="w-8 h-8 text-white" />
                         </span>
                         <input
-  type="password"
-  placeholder="Password"
-  className="w-full h-12 pl-12 text-white placeholder-white font-normal text-lg border border-white rounded bg-transparent outline-none"
-/>
+                            type="password"
+                            placeholder="Password"
+                            className="w-full h-12 pl-12 text-white placeholder-white font-normal text-lg border border-white rounded bg-transparent outline-none"
+                            />
 
                     </div>
                 </div>
@@ -67,6 +72,7 @@ const SignupPage = () => {
             </div>
         </div>
     </div>
+</div>
     );
 };
 
