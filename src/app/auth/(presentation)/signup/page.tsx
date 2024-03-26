@@ -84,6 +84,11 @@ const SignupPage: React.FC = () => {
             Signin
           </Link>
         </div>
+        <Link href="/dashboard" className="text-[#43064F] underline">
+          {/* Add any element as a child */}
+          {/* <a>Go to Another Page</a> */}
+          Dashboard
+        </Link>
       </div>
     </div>
   );
